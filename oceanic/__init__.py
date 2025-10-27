@@ -1,8 +1,6 @@
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
+from colorama import init
 
+init(autoreset=True)
 app = Flask(__name__)
-
-
-
 
